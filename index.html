@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>JOBFIND</title>
+  
+  <link rel="stylesheet" href="mystyleweb2.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+</head>
+<body>
+  
+  <header>
+
+  </header>
+  
+  <img align="right" src="img1.png" width="485px" height="952px">
+
+  
+    <!-- Left Section -->
+
+      <maintitle>JOBFIND</maintitle><p></p>
+      <subtitle>FIND YOUR DREAM JOBS</subtitle><p></p>
+
+
+      <div class="search-bar"> <!search bar setting link with the styling css file>
+        <input type="text" id="searchInput" placeholder="SEARCH JOBS">
+        <button onclick="searchJobs()">Search</button>
+      </div>
+
+    <!-- Right Section -->
+    
+    
+  <div class="jobbutton">
+  <button class="nav-btn" onclick="goPage('jobpage.html')"><h2>MORE JOBS</h2><br><h4>Click here to see more jobs.</h4></button>
+</div>
+
+
+
+     <h1><subtitlestyle1>FEATURED JOBS</subtitlestyle1></h1><p></p> 
+
+
+
+     
+     
+<div class="jobs-container">
+  <!-- Job 1 -->
+  <div class="job-box" data-title="website designer">
+    <h2>WEBSITE DESIGNER</h2>
+    <p>SALARY : Rs 45000</p>
+    <!The box showing website designer job on homepage>
+  
+    
+    <button class="apply-btn" onclick="goApply('Website Designer')">APPLY</button>
+  </div>
+
+  <!-- Job 2 -->
+  <div class="job-box" data-title="civil engineer">
+    <h2>CIVIL ENGINEER</h2>
+    <p>SALARY : Rs 38000</p>
+    <!The box showing civil engineer job on homepage>
+
+    <button class="apply-btn" onclick="goApply('Civil Engineer')">APPLY</button>
+  </div>
+
+  <!-- Job 3 -->
+  <div class="job-box" data-title="bank teller">
+    <h2>BANK TELLER</h2>
+    <p>SALARY : Rs 27000</p>
+    <!The box showing bank teller job on homepage> 
+
+
+    <button class="apply-btn" onclick="goApply('Bank Teller')">APPLY</button>
+  </div>
+</div>
+
+  <!-- Footer Navigation -->
+  <footer>
+   
+
+    <button onclick="goPage('about.html')">ABOUT</button>
+    <button onclick="goPage('contactpage.html')">CONTACT</button>
+    <button onclick="goPage('servicespage.html')">SERVICES</button>
+  </footer>
+
+  <script src="javasearch.js"></script> <!Link the homepage to the javascript file for search results>
+  <script src="gopages.js"></script>
+  
+  
+  
+  
+
+  </script>
+  
+</body>
+</html>
