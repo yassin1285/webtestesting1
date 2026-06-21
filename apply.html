@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Application Form</title>
+  <link rel="stylesheet" href="mystyleweb2.css"> <!link the application page to its styling page>
+</head>
+<body>
+  <h1 class="header">APPLICATION FORM</h1>
+
+  <div class="form-box">
+    <h2 id="formTitle">Apply for Job</h2>
+    <form>
+      <label>NAME:</label><br>
+      <input type="text" name="name" required><br><br>
+
+      <label>SURNAME:</label><br>
+      <input type="text" name="surname" required><br><br>
+
+      <label>EMAIL:</label><br>
+      <input type="email" name="email" required><br><br>
+
+      <label>PHONE NUMBER:</label><br>
+      <input type="tel" name="phone" required><br><br>
+
+      <button type="submit" class="apply-btn">APPLY</button> <!submit button for application form>
+    </form>
+  </div>
+
+    <!-- Confirmation Box -->
+<div id="confirmationBox" class="form-box" style="display:none;">
+  <h2>SUCCESSFULLY APPLIED</h2>
+  <p id="appliedJob"></p>
+  <p><strong>Name:</strong> <span id="appliedName"></span></p>
+  <p><strong>Surname:</strong> <span id="appliedSurname"></span></p>
+  <p><strong>Email:</strong> <span id="appliedEmail"></span></p>
+  <p><strong>Phone:</strong> <span id="appliedPhone"></span></p>
+
+</div>
+<!This is the apllication form box that show data entered>
+
+
+
+
+<!-- Back to Homepage Button -->
+  <button class="back-btn" onclick="goHome()">BACK TO HOMEPAGE</button>
+
+  <script src="applicationjavascript.js">
+    
+</script>
+
+
+<script src="javascript.js">
+  
+</script>
+
+</body>
+
+<footer></footer>
+</html>

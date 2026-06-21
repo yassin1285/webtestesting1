@@ -1,0 +1,42 @@
+<div class="jobs-container">
+  <!-- Job 1 -->
+  <div class="job-box">
+    <h2>WEBSITE DESIGNER</h2>
+    <p>SALARY : Rs 45000</p>
+    <button class="apply-btn" onclick="showForm('Website Designer')">APPLY</button>
+  </div>
+
+  <!-- Job 2 -->
+  <div class="job-box">
+    <h2>CIVIL ENGINEER</h2>
+    <p>SALARY : Rs 38000</p>
+    <button class="apply-btn" onclick="showForm('Civil Engineer')">APPLY</button>
+  </div>
+
+  <!-- Job 3 -->
+  <div class="job-box">
+    <h2>BANK TELLER</h2>
+    <p>SALARY : Rs 27000</p>
+    <button class="apply-btn" onclick="showForm('Bank Teller')">APPLY</button>
+  </div>
+</div>
+
+<!-- Hidden Application Form -->
+<div id="applicationForm" class="form-box" style="display:none;">
+  <h2 id="formTitle">Apply for Job</h2>
+  <form>
+    <label>NAME:</label><br>
+    <input type="text" name="name" required><br><br>
+
+    <label>SURNAME:</label><br>
+    <input type="text" name="surname" required><br><br>
+
+    <label>EMAIL:</label><br>
+    <input type="email" name="email" required><br><br>
+
+    <label>PHONE NUMBER:</label><br>
+    <input type="tel" name="phone" required><br><br>
+
+    <button type="submit" class="apply-btn">APPLY</button>
+  </form>
+</div>

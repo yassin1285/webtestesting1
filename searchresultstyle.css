@@ -1,0 +1,97 @@
+.jobs-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+
+html, body {
+  height: 100%;          /* full height of viewport */
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;               /* pushes footer down */
+}
+
+footer {
+  text-align: center;
+  background-color: #0073e6;
+  padding: 30px;
+  color: white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+header
+{
+  background-color: #0073e6;
+  padding:30px;
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.job-box {
+  width: 250px;
+  padding: 20px;
+  background-color: #fff;
+  border: 2px solid #0073e6;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1);
+}
+
+.apply-btn {
+  background-color: #0073e6;
+  color: white;
+  padding: 8px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.apply-btn:hover {
+  background-color: #005bb5;
+}
+
+.back-btn {
+  margin-left: 44%;
+  
+  margin-top: 30px;
+  background: black;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+.back-btn:hover {
+  background: #0073e6;
+}
